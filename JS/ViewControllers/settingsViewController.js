@@ -30,7 +30,7 @@ class SettingsViewController extends ViewController {
                     langOptions += "<option value='" + this.lecture.translations[lang] + "'>" + lang + "</option>";
                 }
                 langOptions += "</select>";
-                langOptions += "<label>Paralel text</label>";
+                langOptions += "<label>Parallel translation</label>";
             }
         } else {
             langOptions += "<input type='hidden' name='translation-lang' value='' id='translation-lang' class='hide'>";
